@@ -1,0 +1,27 @@
+table.alunoTable {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border: 1px solid #000000;
+    background-color: #D3FFE9;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.alunoTable td, table.alunoTable th {
+  border: 0px solid #4A4A4A;
+  padding: 4px 3px;
+}
+
+table.alunoTable tbody td {
+  font-size: 13px;
+  color: #000000;
+}
+
+table.alunoTable tr:nth-child(even) {
+  background: #D3FFE9;
+}
+
+table.alunoTable tfoot td {
+  font-size: 12px;
+}
